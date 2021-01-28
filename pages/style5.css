@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+nav{
+	background: #ffd0b6;
+	font-family: montserrat;
+	height: 80px;
+	width: 100%;
+}
+label.ref{
+	color: black;
+	font-size: 70px;
+	font-weight: bold;
+	padding: 0 50px;
+	line-height: 80px;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 3px;
+	padding: 7px 13px;
+}
+a.action, a:hover{
+	background: #FFFFFF;
+	transition: .5s;
+}
+section{
+	background-color: #e5fbe5;
+	background-size: cover;
+	height: calc(100vh - 80px);
+}
+div{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	border: 20px solid red;
+	padding: 60px;
+}
+#left{
+	float: left;
+	width: 60%;
+}
+#right{
+	float: right;
+	width: 40%
+}
+h1{
+	font-family: "Lucida Console", monospace;
+	font-weight: bold;
+	font-size: 30px;
+}
+p{
+	font-family: montserrat;
+	font-size: 20px;
+}
+footer{
+	background: #ffd0b6;
+	height: 50px;
+	width: 100%;
+	}
+h5{
+	font-family: "Lucida Handwriting", cursive;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	font-size: 30px;
+}

@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+nav{
+	background: #ffd0b6;
+	font-family: montserrat;
+	height: 80px;
+	width: 100%;
+}
+label.name{
+	color: black;
+	font-size: 70px;
+	font-weight: bold;
+	padding: 0 50px;
+	line-height: 80px;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 3px;
+	padding: 7px 13px;
+}
+a.action, a:hover{
+	background: #FFFFFF;
+	transition: .5s;
+}
+section{
+	background-color: #e8f4f8;
+	background-size: cover;
+	height: calc(100vh - 80px);
+}
+h1{
+	font-family: "lobster", monospace;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 0;
+}
+h2{
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 35px;
+	color: #4169e1;
+	text-align: center;
+	padding-top: 0;
+}
+h3{
+	font-family: monospace;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 0;
+}
+h4{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 0;
+}
+#left{
+	float: left;
+	padding: 20px;
+}
+p{
+	font-family: "Lucida Console", monospace;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 260px;
+	padding-top: 28px;
+}
+#right{
+	float: right;
+}
+.pic{
+	width: 370px;
+	height: 380px;
+	border-radius: 50%;
+	margin-right: 260px;
+}
+.black-border{
+	border-color: black;
+	border-style: solid;
+	border-width: 10px;
+}
+footer{
+	background: #ffd0b6;
+	height: 50px;
+	width: 100%;
+}
+h5{
+	font-family: "Lucida Handwriting", cursive;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	font-size: 30px;
+}
